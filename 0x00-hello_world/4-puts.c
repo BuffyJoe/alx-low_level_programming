@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
+	* main - entry point
 	* this is a function that prints a single line of code
 	*
-	* it is going to always retun 0
+	* return: it is going to always retun 0
 */
 int main(void)
 {
