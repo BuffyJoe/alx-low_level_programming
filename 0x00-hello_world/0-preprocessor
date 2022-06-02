@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc CFILE -o CFILE | chmod u+x CFILE | ./CFILE > c
+export CFILE=0-main.c | chmod u+x 0-main.c | ./0-main.c > c
