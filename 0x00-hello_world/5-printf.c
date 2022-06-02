@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* 	 main - entry point
-*	 Return: it is going to always retun 0
+*	main - entry point
+*	Return: it is going to always retun 0
 */
 int main(void)
 {
