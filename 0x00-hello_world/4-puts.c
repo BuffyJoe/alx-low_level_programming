@@ -3,7 +3,7 @@
 	* main - entry point
 	* this is a function that prints a single line of code
 	*
-	* return: it is going to always retun 0
+	* Return: it is going to always retun 0
 */
 int main(void)
 {
