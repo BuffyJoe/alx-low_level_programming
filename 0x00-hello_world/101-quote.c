@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	char quote[] = "and that place of are is useful\" - Dore Korpar, 2015-10-19\n";
-	write(1, quote, 59);
+	char quo[] = "and that place of are is useful\" - Dore Korpar, 2015-10-19\n";
+	write(1, quo, 59);
+	
 	return (1);
 }
