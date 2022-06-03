@@ -11,8 +11,7 @@ int main(void)
 
 	for (a = 0; a < 10; ++a)
 	{
-		putchar(a);
+		printf(a, '\n');
 	}
-	putchar('\n');
 	return (0);
 }
