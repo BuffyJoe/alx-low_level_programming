@@ -2,15 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Description: program that assign a random number n each time it is executed
-*
-* Return: return one of the 3 options
-*/
+ * main - Entry point
+ *
+ * Description: program that assigns a random number
+ *
+ * Returnn: return one of the 3 options
+ */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -23,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\n", n)
 	}
 	return (0);
 }
