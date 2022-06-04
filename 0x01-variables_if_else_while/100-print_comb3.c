@@ -11,7 +11,7 @@ int main(void)
 	int b = 0;
 	int coma = 1;
 
-	while (a <= b)
+	while (a <= 9)
 	{
 		while (b <= 9)
 		{
