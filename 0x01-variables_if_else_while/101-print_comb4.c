@@ -1,23 +1,42 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: prints all the alphabets in lower case
- *
- * Return: return all the alphabets
- */
+* main - Entry point
+* Description: prints all the alphabets in lower case
+*
+* Return: return all the alphabets
+*/
 int main(void)
 {
-	int c = '0';
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int coma = 1;
 
-	while (c <= '9')
+	while (a <= 9)
 	{
-		putchar(c);
-		if (c != '9')
+		while (b <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+			while (c <= 9)
+			{
+			if (a < b && b < c)
+			{
+				if (coma == 0)
+				{
+					putchar(',');
+					putchar(32);
+				}
+				coma = 0;
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(c + '0');
+			}
+			++c;
+			}
+			++b;
+			c = 0;
 		}
-		c++;
+		++a;
+		b = 0;
 	}
 	putchar(10);
 	return (0);
