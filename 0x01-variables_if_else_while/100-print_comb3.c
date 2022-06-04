@@ -26,7 +26,7 @@ int main(void)
 				putchar(a + '0');
 				putchar(b + '0');
 			}
-			b++
+			b++;
 		}
 		a++;
 		b = 0;
