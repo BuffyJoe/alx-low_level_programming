@@ -17,7 +17,7 @@ int main(void)
 		{
 			if (a < b)
 			{
-				if (coma = 0)
+				if (coma == 0)
 				{
 					putchar(',');
 					putchar(32);
