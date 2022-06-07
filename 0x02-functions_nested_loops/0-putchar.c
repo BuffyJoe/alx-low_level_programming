@@ -6,8 +6,9 @@
  *
  * Return: return 0
  */
-char main(void)
+int main(void)
 {
-	putchar("_putchar");
+	char c = "_putchar";
+	putchar(c);
 	return (0);
 }
