@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: a-z
+ * Description: print_alphabet function
  * code: prints a-z
  *
  * Return: 0 = success
