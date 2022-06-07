@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- *  _putchar
+ * Description: a-z
+ * code: prints a-z
  *
  * Return: 0 = success
  */
