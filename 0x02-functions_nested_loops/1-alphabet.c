@@ -10,6 +10,9 @@
  */
 void print_alphabet(void)
 {
+/**
+* Descroption: print_alphabet
+*/
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
