@@ -13,14 +13,6 @@ void jack_bauer(void)
 	{
 		while (b <= 59)
 		{
-			if (a > 9 && a < 19)
-			{
-				_putchar('1');
-			}
-			else
-			{
-				_putchar('2');
-			}
 			_putchar(a + '0');
 			_putchar(':');
 			_putchar(b + '0');
