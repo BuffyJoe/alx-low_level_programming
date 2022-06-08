@@ -1,23 +1,14 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - use putchar to print a to z alphabets
  *
- * Description: print_alphabet function
- * code: prints a-z
- *
- * Return: 0 = success
  */
 void print_alphabet(void)
 {
-/**
-* Descroption: print_alphabet
-*/
-	char c;
+	int ch;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+
 	_putchar('\n');
 }
