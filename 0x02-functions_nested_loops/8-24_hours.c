@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * jack_bauer - function to ptint last digit
-* @n: parameter
 *
 * Return: return Nothing
 */
@@ -14,8 +13,9 @@ void jack_bauer(void)
 	{
 		while (b <= 59)
 		{
-			_putchar(a + '0');
+			_putchar(a + '00');
 			_putchar(':');
+			_putchar(b + '00');
 			_putchar('\n');
 			++b;
 		}
