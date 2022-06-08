@@ -3,7 +3,7 @@
 * jack_bauer - function to ptint last digit
 * @n: parameter
 *
-* Return: return the last digit
+* Return: return Nothing
 */
 void jack_bauer(void)
 {
@@ -20,5 +20,4 @@ void jack_bauer(void)
 		++a;
 		b = 0;
 	}
-  return (0);
 }
