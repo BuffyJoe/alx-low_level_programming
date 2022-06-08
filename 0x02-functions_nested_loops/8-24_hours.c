@@ -15,7 +15,7 @@ void jack_bauer(void)
 		{
 			if (a < 9)
 			{
-				_putchar('0);
+				_putchar('0');
 			}
 			if (a > 9 && a < 19)
 			{
@@ -25,9 +25,9 @@ void jack_bauer(void)
 			{
 				_putchar('2');
 			}
-			_putchar(a + '00');
+			_putchar(a + '0');
 			_putchar(':');
-			_putchar(b + '00');
+			_putchar(b + '0');
 			_putchar('\n');
 			++b;
 		}
