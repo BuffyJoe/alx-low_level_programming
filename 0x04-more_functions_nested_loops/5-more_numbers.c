@@ -12,9 +12,9 @@ void print_most_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		while (b = 0; b <= 14; b++)
+		while (b = 0; b <= 14)
 		{
-			_putchar(b);
+			_putchar(b++);
 		}
 		_putchar('\n');
 	}
