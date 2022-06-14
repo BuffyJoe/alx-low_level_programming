@@ -1,4 +1,3 @@
-)  257 Bytes
 #include "main.h"
 /**
 * *_strcpy - function
