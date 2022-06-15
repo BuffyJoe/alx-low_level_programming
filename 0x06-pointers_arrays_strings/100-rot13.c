@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * rot13 - Entry point
- * ONE if, TWO loops only...
- * @n: input
- * Return: decrypted string
- */
+* rot13 - Entry point
+* ONE if, TWO loops only...
+* @n: input
+* Return: decrypted string
+*/
 char *rot13(char *n)
 {
 	int x, rot_c = 13, i = 0;
